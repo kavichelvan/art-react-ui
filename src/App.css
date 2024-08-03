@@ -1,6 +1,84 @@
-
 /* src/App.css */
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+}
+
+/*
+src/App.css
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #000;
+  border-radius: 50%;
+  animation: pulse 1s infinite alternate;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 5px;
+  background-color: #4caf50;
+  animation: load 3s infinite;
+}
+
+@keyframes load {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+*/
+.loader-container {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center */
+  align-items: center;
+  /* Vertically center */
+  height: 100vh;
+  /* Full viewport height */
 }
