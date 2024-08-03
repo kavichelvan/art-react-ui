@@ -1,6 +1,6 @@
 # art-react-ui
 
-Testing e2e flow of react, nodejs and postgres code
+Testing e2e flow of react, nodejs
 
 to start the code
 run
