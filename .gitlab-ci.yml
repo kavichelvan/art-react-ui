@@ -1,0 +1,6 @@
+stages:
+  - zip-lambdas
+  - ui-build
+  - unit-test
+  - e2e
+  - ui-deploy
